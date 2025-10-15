@@ -6,7 +6,7 @@ return {
     configs.setup({
       highlight = { enable = true},
       indent = { enable = true},
-      autotage = { enable = true},
+      autotag = { enable = true},
       ensure_installed = {
 	"lua",
 	"python",
