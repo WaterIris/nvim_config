@@ -1,6 +1,5 @@
 return {
   "utilyre/barbecue.nvim",
-  version = "*", -- use latest version (can pin later if needed)
 
   dependencies = {
     "SmiteshP/nvim-navic",

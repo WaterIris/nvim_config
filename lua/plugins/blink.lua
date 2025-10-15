@@ -1,7 +1,5 @@
 return {
   "saghen/blink.cmp",
-  version = "1.*",  -- use tagged releases for binary downloads
-
   dependencies = {
     "rafamadriz/friendly-snippets", -- optional snippet source
   },
@@ -26,9 +24,9 @@ return {
       default = { "lsp", "path", "snippets", "buffer" },
     },
 
-    fuzzy = {
-      implementation = "prefer_rust_with_warning", -- try Rust, fallback to Lua
-    },
+    -- fuzzy = {
+      -- implementation = "prefer_rust_with_warning", -- try Rust, fallback to Lua
+    -- },
   })
   end,
   opts_extend = { "sources.default" }, -- merge with future options if extended
